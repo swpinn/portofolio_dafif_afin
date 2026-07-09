@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
@@ -83,7 +83,7 @@
       </div>
       <div class="hero-visual">
         <div class="hero-image-wrapper" style="overflow: hidden;">
-          <img src="https://github.com/swpinn/portofolio_dafif_afin/raw/main/images/profile.jpg" alt="Dafif Afin Annafi" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="https://raw.githubusercontent.com/swpinn/portofolio_dafif_afin/main/images/profile.jpg" alt="Dafif Afin Annafi" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
 
       </div>
@@ -130,63 +130,69 @@
       </div>
       <div class="skills-category-group">
         
-        <!-- KATEGORI 1: Programming Languages -->
-        <h3 class="category-title fade-in">Programming Languages</h3>
-        <div class="skills-grid">
-          <!-- Skill Card: SQL -->
-          <div class="skill-card fade-in delay-1">
-            <div class="skill-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+        <div class="skill-category-column">
+          <!-- KATEGORI 1: Programming Languages -->
+          <h3 class="category-title fade-in">Programming Languages</h3>
+          <div class="skills-grid">
+            <!-- Skill Card: SQL -->
+            <div class="skill-card fade-in delay-1">
+              <div class="skill-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <h3 class="skill-name">SQL</h3>
             </div>
-            <h3 class="skill-name">SQL</h3>
-          </div>
 
-          <!-- Skill Card: Python -->
-          <div class="skill-card fade-in delay-2">
-            <div class="skill-icon">
-              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"><title>Python</title><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.08.77-.04.84-.02 1.27.05zm-6.3 1.98a.94.94 0 0 0-.94.95c0 .53.42.95.94.95.53 0 .95-.42.95-.95a.94.94 0 0 0-.95-.95zm10.16 1.63l.21.03.28.07.32.12.35.18.36.26.36.36.35.46.32.59.28.73.21.88.14 1.05.05 1.23-.06 1.22-.16 1.04-.24.87-.32.71-.36.57-.4.44-.42.33-.42.24-.4.16-.36.1-.32.05-.24.01h-.16l-.06-.01h-8.16v.83h5.84l.01 2.75.02.37-.05.34-.11.31-.17.28-.25.26-.31.23-.38.2-.44.18-.51.15-.58.12-.64.1-.71.08-.77.04-.84.02-1.27-.05-.9-.2-.73-.26-.59-.3-.45-.32-.34-.34-.25-.34-.16-.33-.1-.3-.04-.26-.02-.2.01-.13V15.5l.05-.63.13-.55.21-.46.26-.38.3-.31.33-.25.35-.19.35-.14.33-.1.3-.07.26-.04.21-.02h4.25l.69-.05.59-.14.5-.22.41-.27.33-.32.27-.35.2-.36.15-.37.1-.35.07-.32.04-.27.02-.21V9.42h3.47zM16.05 19.1a.94.94 0 0 0 .95-.95c0-.52-.42-.94-.95-.94a.94.94 0 0 0-.94.94c0 .53.42.95.94.95z"/></svg>
+            <!-- Skill Card: Python -->
+            <div class="skill-card fade-in delay-2">
+              <div class="skill-icon">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"><title>Python</title><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.08.77-.04.84-.02 1.27.05zm-6.3 1.98a.94.94 0 0 0-.94.95c0 .53.42.95.94.95.53 0 .95-.42.95-.95a.94.94 0 0 0-.95-.95zm10.16 1.63l.21.03.28.07.32.12.35.18.36.26.36.36.35.46.32.59.28.73.21.88.14 1.05.05 1.23-.06 1.22-.16 1.04-.24.87-.32.71-.36.57-.4.44-.42.33-.42.24-.4.16-.36.1-.32.05-.24.01h-.16l-.06-.01h-8.16v.83h5.84l.01 2.75.02.37-.05.34-.11.31-.17.28-.25.26-.31.23-.38.2-.44.18-.51.15-.58.12-.64.1-.71.08-.77.04-.84.02-1.27-.05-.9-.2-.73-.26-.59-.3-.45-.32-.34-.34-.25-.34-.16-.33-.1-.3-.04-.26-.02-.2.01-.13V15.5l.05-.63.13-.55.21-.46.26-.38.3-.31.33-.25.35-.19.35-.14.33-.1.3-.07.26-.04.21-.02h4.25l.69-.05.59-.14.5-.22.41-.27.33-.32.27-.35.2-.36.15-.37.1-.35.07-.32.04-.27.02-.21V9.42h3.47zM16.05 19.1a.94.94 0 0 0 .95-.95c0-.52-.42-.94-.95-.94a.94.94 0 0 0-.94.94c0 .53.42.95.94.95z"/></svg>
+              </div>
+              <h3 class="skill-name">Python</h3>
             </div>
-            <h3 class="skill-name">Python</h3>
-          </div>
-        </div>
-
-        <!-- KATEGORI 2: Data Analytic Tools -->
-        <h3 class="category-title fade-in">Data Analytic Tools</h3>
-        <div class="skills-grid">
-          <!-- Skill Card: Microsoft Excel -->
-          <div class="skill-card fade-in delay-1">
-            <div class="skill-icon">
-              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"><title>Microsoft Excel</title><path d="M23 1.5q.41 0 .7.3.3.29.3.7v19q0 .41-.3.7-.29.3-.7.3H7q-.41 0-.7-.3-.3-.29-.3-.7V18H1q-.41 0-.7-.3-.3-.29-.3-.7V7q0-.41.3-.7Q.58 6 1 6h5V2.5q0-.41.3-.7.29-.3.7-.3zM6 13.28l1.42 2.66h2.14l-2.38-3.87 2.34-3.8H7.46l-1.3 2.4-.05.08-.04.09-.64-1.28-.66-1.29H2.59l2.27 3.82-2.48 3.85h2.16zM14.25 21v-3H7.5v3zm0-4.5v-3.75H12v3.75zm0-5.25V7.5H12v3.75zm0-5.25V3H7.5v3zm8.25 15v-3h-6.75v3zm0-4.5v-3.75h-6.75v3.75zm0-5.25V7.5h-6.75v3.75zm0-5.25V3h-6.75v3z"/></svg>
-            </div>
-            <h3 class="skill-name">Microsoft Excel</h3>
-          </div>
-
-          <!-- Skill Card: Google Sheets -->
-          <div class="skill-card fade-in delay-2">
-            <div class="skill-icon">
-              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"><title>Google Sheets</title><path d="M14.727 6.727H9.273v2.182h5.454V6.727zm0 4.364H9.273v2.182h5.454v-2.182zm-7.636 4.364h7.636v2.181H7.091v-2.181zM14.727 0H2.727C1.222 0 0 1.222 0 2.727v18.546C0 22.778 1.222 24 2.727 24h18.546c1.505 0 2.727-1.222 2.727-2.727V9.273L14.727 0zM21.818 21.273H2.182V2.727h11.454v7.636h7.636v10.91h.546z"/></svg>
-            </div>
-            <h3 class="skill-name">Google Sheets</h3>
           </div>
         </div>
 
-        <!-- KATEGORI 3: Data Visualization Tools -->
-        <h3 class="category-title fade-in">Data Visualization Tools</h3>
-        <div class="skills-grid">
-          <!-- Skill Card: Power BI -->
-          <div class="skill-card fade-in delay-1">
-            <div class="skill-icon">
-              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"><title>Power BI</title><path d="M4.607 19.929h4.372v-8.238H4.607v8.238zM14.787 2h-4.373v17.929h4.373V2zm5.545 4.887h-4.373v13.042h4.373V6.887zM5.545 18.064h-3.41v-4.512h3.41v4.512z"/></svg>
+        <div class="skill-category-column">
+          <!-- KATEGORI 2: Data Analytic Tools -->
+          <h3 class="category-title fade-in">Data Analytic Tools</h3>
+          <div class="skills-grid">
+            <!-- Skill Card: Microsoft Excel -->
+            <div class="skill-card fade-in delay-1">
+              <div class="skill-icon">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"><title>Microsoft Excel</title><path d="M23 1.5q.41 0 .7.3.3.29.3.7v19q0 .41-.3.7-.29.3-.7.3H7q-.41 0-.7-.3-.3-.29-.3-.7V18H1q-.41 0-.7-.3-.3-.29-.3-.7V7q0-.41.3-.7Q.58 6 1 6h5V2.5q0-.41.3-.7.29-.3.7-.3zM6 13.28l1.42 2.66h2.14l-2.38-3.87 2.34-3.8H7.46l-1.3 2.4-.05.08-.04.09-.64-1.28-.66-1.29H2.59l2.27 3.82-2.48 3.85h2.16zM14.25 21v-3H7.5v3zm0-4.5v-3.75H12v3.75zm0-5.25V7.5H12v3.75zm0-5.25V3H7.5v3zm8.25 15v-3h-6.75v3zm0-4.5v-3.75h-6.75v3.75zm0-5.25V7.5h-6.75v3.75zm0-5.25V3h-6.75v3z"/></svg>
+              </div>
+              <h3 class="skill-name">Microsoft Excel</h3>
             </div>
-            <h3 class="skill-name">Power BI</h3>
-          </div>
 
-          <!-- Skill Card: Google Looker Studio -->
-          <div class="skill-card fade-in delay-2">
-            <div class="skill-icon">
-              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"><title>Google Looker Studio</title><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/></svg>
+            <!-- Skill Card: Google Sheets -->
+            <div class="skill-card fade-in delay-2">
+              <div class="skill-icon">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"><title>Google Sheets</title><path d="M14.727 6.727H9.273v2.182h5.454V6.727zm0 4.364H9.273v2.182h5.454v-2.182zm-7.636 4.364h7.636v2.181H7.091v-2.181zM14.727 0H2.727C1.222 0 0 1.222 0 2.727v18.546C0 22.778 1.222 24 2.727 24h18.546c1.505 0 2.727-1.222 2.727-2.727V9.273L14.727 0zM21.818 21.273H2.182V2.727h11.454v7.636h7.636v10.91h.546z"/></svg>
+              </div>
+              <h3 class="skill-name">Google Sheets</h3>
             </div>
-            <h3 class="skill-name">Google Looker Studio</h3>
+          </div>
+        </div>
+
+        <div class="skill-category-column">
+          <!-- KATEGORI 3: Data Visualization Tools -->
+          <h3 class="category-title fade-in">Data Visualization Tools</h3>
+          <div class="skills-grid">
+            <!-- Skill Card: Power BI -->
+            <div class="skill-card fade-in delay-1">
+              <div class="skill-icon">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"><title>Power BI</title><path d="M4.607 19.929h4.372v-8.238H4.607v8.238zM14.787 2h-4.373v17.929h4.373V2zm5.545 4.887h-4.373v13.042h4.373V6.887zM5.545 18.064h-3.41v-4.512h3.41v4.512z"/></svg>
+              </div>
+              <h3 class="skill-name">Power BI</h3>
+            </div>
+
+            <!-- Skill Card: Google Looker Studio -->
+            <div class="skill-card fade-in delay-2">
+              <div class="skill-icon">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"><title>Google Looker Studio</title><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/></svg>
+              </div>
+              <h3 class="skill-name">Google Looker Studio</h3>
+            </div>
           </div>
         </div>
 
@@ -272,7 +278,7 @@
         <!-- Project Card 1 -->
         <div class="project-card fade-in delay-1">
           <div class="project-thumbnail" style="padding: 0; overflow: hidden;">
-            <img src="https://github.com/user-attachments/assets/0922b567-1a40-4a31-a789-4e9c76a0c7c9" alt="Credit Card Report" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <img src="images/porto-1.PNG" alt="Credit Card Report" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
           </div>
           <div class="project-info">
             <h3 class="project-title" style="font-size: 1.15rem;">Credit Card Customer Analytics</h3>
@@ -299,7 +305,7 @@
         <!-- Project Card 2 -->
         <div class="project-card fade-in delay-2">
           <div class="project-thumbnail" style="padding: 0; overflow: hidden;">
-            <img src="https://github.com/user-attachments/assets/a8977e43-cde6-418c-a2c2-7b9c3747ae14" alt="Opticool App" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <img src="https://i.postimg.cc/HnVQ0QPR/porto-2.png" alt="Opticool App" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
           </div>
           <div class="project-info">
             <h3 class="project-title" style="font-size: 1.15rem;">Opticool (Backend)</h3>
@@ -324,7 +330,7 @@
         <!-- Project Card 3 -->
         <div class="project-card fade-in delay-3">
           <div class="project-thumbnail" style="padding: 0; overflow: hidden;">
-            <img src="https://github.com/user-attachments/assets/8520c4ec-5858-469e-947b-e2342b550bbd" alt="Bitjoy Analytics" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <img src="https://i.postimg.cc/8cSFy94Y/619194425-8520c4ec-5858-469e-947b-e2342b550bbd.png" alt="Bitjoy Analytics" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
           </div>
           <div class="project-info">
             <h3 class="project-title">Bitjoy Ice Cream Analytics</h3>
